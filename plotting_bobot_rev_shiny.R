@@ -5,7 +5,6 @@ fpaket <- function(paket1, ...) {
       character.only = TRUE
     )))) {
       install.packages(nama_paket[k],
-        type = "binary",
         repos = "https://cran.usk.ac.id/"
       )
       library(nama_paket[k], character.only = TRUE)
