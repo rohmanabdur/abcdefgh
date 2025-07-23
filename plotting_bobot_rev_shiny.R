@@ -12,7 +12,7 @@ fpaket <- function(paket1, ...) {
   }
 }
 
-fpaket("readxl", "openxlsx", "shiny", "bslib", "reactable")
+fpaket("readxl", "shiny", "bslib", "reactable")
 # filebobot1= "https://docs.google.com/spreadsheets/d/15srhlRfcojnlfoG0qy94kqQv5GJtMJy_/edit?usp=sharing&ouid=112676657395266139926&rtpof=true&sd=true"
 #
 fbaca_bobot <- function(file_plot_bobot) {
